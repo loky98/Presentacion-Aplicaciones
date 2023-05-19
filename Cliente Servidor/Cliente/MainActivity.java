@@ -3,9 +3,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -17,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText editText;
     private Button sendButton;
     private TextView responseTextView;
-
     private Socket socket;
     private PrintWriter out;
     private BufferedReader in;
