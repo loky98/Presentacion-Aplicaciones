@@ -1,12 +1,12 @@
-import android.os.Bundle;
-import android.os.Handler;
+import android.os.Bundle; // La Clase permite almacenar y pasar datos entre
+//diferentes componentes de una aplicación.
+import android.os.Handler;// la Clase permite el uso de hilos.
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import java.io.BufferedReader;
+import androidx.appcompat.app.AppCompatActivity; // las clase permite la
+//compatibilidad con versiones anteriores de android
+import java.io.BufferedReader;// Clases que permiten la comunicacio con de red
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView textView;
     private Button startButton;
-
     private ServerSocket serverSocket;
     private Socket clientSocket;
     private PrintWriter out;
